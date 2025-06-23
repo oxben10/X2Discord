@@ -1,0 +1,16 @@
+{
+  "twitter_bearer_token": "YOUR_TWITTER_BEARER_TOKEN_HERE",
+  "notifications_webhook_url": "YOUR_OPTIONAL_ERROR_NOTIFICATION_WEBHOOK_URL_HERE_U_CAN_SKIP_THIS",
+  "search_limit_per_keyword": 50,
+  "global_filters": {
+    "min_followers": 0,
+    "only_verified": false,
+    "blacklist_usernames": [],
+    "whitelist_usernames": []
+  },
+  "keyword_channels": {
+    "#bugbountytip OR #bugbountytips OR #bugbounty": {
+      "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE"
+    }
+  }
+}
